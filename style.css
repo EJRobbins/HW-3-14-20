@@ -1,0 +1,85 @@
+body {
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-size: inherit;
+   letter-spacing: 0.3px;
+}
+.mainBody {
+   background-color: #f0f5f5;
+   padding: 10px 20px 20px 20px;
+}
+.navbar {
+   background-image: linear-gradient(to right, #c2d6d6,#99ffdd);
+}
+.navbar-brand {
+   color: black!important;
+   font-size: 30px;
+   padding-right: 25px;
+}
+.nav-link {
+   color: black!important;
+   padding-right: 25px;
+   font-size: 22px;
+}
+.nav-link:hover {
+   color: white!important;
+}
+.navbar-toggler-icon {
+   background-image: url(https://cdn3.iconfinder.com/data/icons/ui-ux-essentials-solid/24/hamburger-menu-solid-512.png)!important;
+}
+.card {
+   width: 16rem;
+   font-size: 18px;
+}
+.container {
+   margin-top: 10px;
+   margin-left: 10px;
+}
+.col-md-5>h1 {
+   font-size: 30px;
+   font-weight: 900;
+   padding-top: 10px;
+}
+.col-md-5>p {
+   font-size: 18px;
+   padding-top: 15px;
+}
+.col-md-3 {
+   margin-right: 30px;
+}
+.mobileBody, .mobileText {
+   display: none;
+}
+.containerContact, .containerPortfolio {
+   text-align: center;
+   margin-top: 50px;
+   font-size: 30px;
+}
+.btn {
+   background-color:  #00cc99;
+   border-radius: 5%;
+   border-color: #00cc99;
+   width: 15%;
+   height: 40px;
+}
+.btn>a {
+   color: white;
+   text-decoration: none;
+}
+/* Media queries  */
+
+@media (max-width: 1024px) {
+.mobileBody {
+   display: block;
+   width: 100%;
+}
+.mainBody {
+   display: none;
+}
+.col-md-6>p {
+height: 350px;
+width: 400px;
+}
+.row {
+   width: 100%;
+}
+}
