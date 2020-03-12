@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!-- Links to google fonts, bootstrap and my personal stylsheet -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -14,7 +15,6 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-      
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
@@ -29,17 +29,37 @@
           </ul>
         </div>
       </nav>
-      <div class="containerContact">
-          <p>More coming soon...(hopefully).</p>
-          <button type="button" class="btn btn-outline-dark"><a href="index.html"> Take me back home!</a></button>
+     <!--form layout -->
+     <form>
+      <div class="form-group">
+        <h1 class="contact-header">Contact Form</h1>
+        <label for="exampleFormControlInput1">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="example@gmail.com">
       </div>
-      <div class="footer">
+      <div class="form-group">
+        <label for="networking">How'd you hear about me?</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option>Facebook</option>
+          <option>Instagram</option>
+          <option>Friend/Family</option>
+          <option>Business Referall</option>
+          <option>Other</option>
+        </select>
+        <label for="other">If other, please specify.</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="inquiry">What are you looking to discuss/create?</label>
+        <textarea class="form-control" id="inquiry" rows="3"></textarea>
+      </div>
+      <div class="submitButton">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+     <div class="footer">
         <footer>
           Made with &hearts; in SLC, UT
         </footer>
         </div>
 </body>
-
-
-
 </html>
