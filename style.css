@@ -110,7 +110,27 @@ body {
    padding-bottom: 10px;
 }
 
+/* profile update */
+h1 {
+   padding-bottom: 20px;
+}
+.projects-block {
+   padding: 40px 40px;
+}
+.passwordGen {
+   height: 240px;
+   width: 210px;
+} 
+.dailyPlan {
+   height: 240px;
+   width: 210px;
 
+} 
+.project-titles {
+   font-weight: 500;
+   font-size: 28px;
+   padding-left: 5px;
+}
 /* Media queries  */
 
 @media (max-width: 1239px) {
